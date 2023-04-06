@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Real Turismo",
+    "slug": "real-turismo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "pan",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.realturismo"
+    },
+    "web": {
+      "favicon": "./assets/app/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c9bc23f-5d3c-4ea0-847c-278a4e43384b"
+      }
+    }
+  }
+}
